@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name               = 'deep-cloning'
-  s.version            = '0.2.2'
+  s.version            = '0.3.2'
   s.platform           = Gem::Platform::RUBY
   s.authors            = ['Nilton Vasques', 'Victor Cordeiro', 'Beatriz Fagundes']
   s.email              = ['nilton.vasques@gmail.com', 'victorcorcos@gmail.com', 'beatrizsfslima@gmail.com']
@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'minitest', '~> 5.10'
   s.add_development_dependency 'rake', '~> 12.1'
-  s.add_development_dependency 'hierarchy_tree', '~> 0'
+  s.add_runtime_dependency 'hierarchy-tree', '~> 0'
   s.add_dependency 'activerecord', '>= 4.2'
 end
